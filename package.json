@@ -1,5 +1,5 @@
 {
-  "name": "use-ouibounce",
+  "name": "@frankcalise/use-ouibounce",
   "version": "1.0.0",
   "description": "A React hook for ouibounce",
   "main": "dist/use-ouibounce.cjs.js",
@@ -46,5 +46,8 @@
     "node_modules",
     "coverage",
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
