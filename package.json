@@ -2,7 +2,8 @@
   "name": "use-ouibounce",
   "version": "1.0.0",
   "description": "A React hook for ouibounce",
-  "main": "src/index.js",
+  "main": "dist/use-ouibounce.cjs.js",
+  "module": "dist/use-ouibounce.esm.js",
   "scripts": {
     "build": "kcd-scripts build --bundle",
     "lint": "kcd-scripts lint",
@@ -15,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/frankcalise/use-ouibounce.git"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "react",
     "ouibounce"
