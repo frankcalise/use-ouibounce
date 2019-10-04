@@ -20,7 +20,22 @@
     "url": "https://github.com/frankcalise/use-ouibounce/issues"
   },
   "homepage": "https://github.com/frankcalise/use-ouibounce#readme",
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
   "dependencies": {
     "ouibounce": "0.0.12"
-  }
+  },
+  "devDependencies": {
+    "kcd-scripts": "1.8.0",
+    "react": "^16.8.4"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ]
 }
