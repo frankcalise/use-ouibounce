@@ -1,6 +1,6 @@
 {
   "name": "@frankcalise/use-ouibounce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook for ouibounce",
   "main": "dist/use-ouibounce.cjs.js",
   "module": "dist/use-ouibounce.esm.js",
