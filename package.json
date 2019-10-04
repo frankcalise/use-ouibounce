@@ -1,0 +1,26 @@
+{
+  "name": "use-ouibounce",
+  "version": "1.0.0",
+  "description": "A React hook for ouibounce",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankcalise/use-ouibounce.git"
+  },
+  "keywords": [
+    "react",
+    "ouibounce"
+  ],
+  "author": "Frank Calise <fcalise@gmail.com> (https://frankcalise.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankcalise/use-ouibounce/issues"
+  },
+  "homepage": "https://github.com/frankcalise/use-ouibounce#readme",
+  "dependencies": {
+    "ouibounce": "0.0.12"
+  }
+}
